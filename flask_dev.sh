@@ -1,1 +1,1 @@
-docker run -p 127.0.0.1:5000:5000 --name dev -d --mount type=bind,source="${PWD}/src",target=/code flask_dev:0.0.1
+docker run -p 127.0.0.1:5000:5000 --name flask-dev -d --mount type=bind,source="${PWD}/src",target=/code flask_dev:0.0.1
